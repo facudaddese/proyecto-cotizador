@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------  */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER  */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(91, 91, 91, 0.23);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div {
+    padding: 15px;
+
+}
+
+.logo-seguro {
+    width: 100px;
+}
+
+/* ------------------------------------------  */
+
+/* MAIN - PRESENTACION */
+
+main {
+    padding-top: 125px;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.presentacion .div-h1 {
+    width: 450px;
+}
+
+.presentacion h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.presentacion .div-img img {
+    height: 400px;
+    width: 550px;
+    padding: 10px;
+}
+
+
+/* MAIN - DUDAS */
+
+.dudas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding-top: 105px;
+}
+
+.dudas h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 25px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    width: 450px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.flex-item:hover {
+    cursor: pointer;
+    box-shadow: 5px 11px 5px 2px rgba(0, 0, 0, 0.23);
+}
+
+.flex-item div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.material-symbols-outlined {
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.flex-item p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem
+}
+
+/* MAIN - GUIAS */
+
+.guias {
+    padding-top: 105px;
+}
+
+.div-h2 h2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 2.7rem;
+}
+
+.flex-guia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 45px;
+}
+
+.card-accidente,
+.card-pinchadura,
+.card-kit {
+    border: 1px solid rgb(161, 161, 161);
+    width: 380px;
+    height: 550px;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.card-accidente:hover,
+.card-pinchadura:hover,
+.card-kit:hover {
+    cursor: pointer;
+    box-shadow: 5px 11px 5px 2px rgba(0, 0, 0, 0.23);
+}
+
+.img-guia {
+    width: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.descripcion-accidente p,
+.descripcion-pinchadura p,
+.descripcion-kit p {
+    padding: 10px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 60px;
+}
+
+.btn-guia{
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #0056b8;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.btn-guia:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #0056b8;
+    border-color: #0056b8;
+}
+
+/* MAIN - VENTAJAS */
+
+.ventajas {
+    padding-top: 105px;
+}
+
+/* ------------------------------------------  */
