@@ -57,7 +57,7 @@ header {
     border-radius: 50px;
     background-color: var(--azul);
     height: 40px;
-    width: 130px;
+    width: 134px;
     border: none;
 }
 
@@ -77,10 +77,15 @@ header {
     color: var(--blanco);
     font-weight: 500;
     padding: 20px;
+    font-size: .9rem;
 }
 
 .logo-seguro {
     width: 100px;
+}
+
+.menu-grid{
+    display: none;
 }
 
 /* ------------------------------------------  */
@@ -196,7 +201,7 @@ main section:nth-child(3) {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    gap: 30px;
+    gap: 40px;
     padding-top: 45px;
     overflow: visible;
 }
@@ -289,7 +294,7 @@ main section:last-child{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    gap: 50px;
+    gap: 20px;
 }
 
 .card-beneficios h5 {
@@ -331,6 +336,7 @@ main section:last-child{
     color: var(--azul);
     font-size: 1.7rem;
     font-weight: 400;
+    text-decoration: none;
 }
 
 footer p {
