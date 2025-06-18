@@ -4,43 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Cotizá tu seguro online, resolvé tus dudas y accedé a guías útiles sobre seguros, accidentes, emergencias y más.">
     <title>Cotizá tus seguros online</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <nav>
+        <!-- aplicar js -->
+        <nav class="navbar">
+            <div>
+                <div class="navbar-flex">
+                    <span class="material-symbols-outlined">directions_car</span>
+                    <button>
+                        <p>Cotizar seguro</p>
+                    </button>
+                </div>
+            </div>
             <div>
                 <a href="index.html">
                     <img src="/assets/img/logoSeguro.png" alt="Logo del seguro" class="logo-seguro">
                 </a>
+            </div>
+            <div>
+                <div class="navbar-flex">
+                    <span class="material-symbols-outlined">support_agent</span>
+                    <button>
+                        <p>Contacto</p>
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
 
     <div class="container">
         <main>
-
             <!-- SECCION PRESENTACION -->
-
             <section class="presentacion">
                 <div class="div-h1">
                     <h1>Cotizá tu seguro online</h1>
                 </div>
 
-                <div class="div-img">
+                <div>
                     <img src="/assets/img/familia.png" alt="Foto animada de una familia protegida">
                 </div>
             </section>
 
             <!-- SECCCION DUDAS -->
             <!-- aplicar js -->
-
-            <section class="dudas">
-                <h2>¿Sos cliente y tenés dudas?</h2>
+            <section>
+                <h2 class="titulo-dudas">¿Sos cliente y tenés dudas?</h2>
 
                 <div class="flex-dudas">
                     <div class="flex-item">
@@ -87,30 +104,29 @@
 
             <!-- SECCION GUIA Y AYUDA -->
             <!-- aplicar js -->
-
-            <section class="guias">
+            <section>
                 <div class="div-h2">
                     <h2>¡Guías y ayudas para vos!</h2>
                 </div>
 
                 <div class="flex-guia">
-                    <div class="card-accidente">
-                        <div class="div-accidente">
+                    <div class="card">
+                        <div>
                             <img src="/assets/img/accidente.png" class="img-guia" alt="Foto accidente de transito">
                         </div>
 
-                        <div class="titulo-accidente">
+                        <div class="titulo">
                             <h3>¿Qué hacer ante un accidente de tránsito?</h3>
                         </div>
 
-                        <div class="descripcion-accidente">
+                        <div class="descripcion">
                             <p>Sufrir un accidente de tránsito puede generar mucho estrés, pero contar con la
                                 información adecuada te permitirá mantener la calma y actuar de forma rápida y efectiva.
                                 En esta guía, te explicamos paso a paso cómo proceder correctamente ante un choque,
                                 priorizando tu seguridad y el cumplimiento de los procedimientos legales.</p>
                         </div>
 
-                        <div class="btn">
+                        <div class="div-btn">
                             <button class="btn-guia"> Ver guía</button>
                         </div>
                     </div>
@@ -135,16 +151,16 @@
                             incluso desde una app, dependiendo de tu proveedor.</p>
                     </ol> -->
 
-                    <div class="card-pinchadura">
-                        <div class="div-pinchadura">
+                    <div class="card">
+                        <div>
                             <img src="/assets/img/cambioDeRueda.png" class="img-guia" alt="Foto cambiando la rueda">
                         </div>
 
-                        <div class="titulo-pinchadura">
-                            <h3>Se me pincho una ruedad, ¿Qué hago?</h3>
+                        <div class="titulo">
+                            <h3>Se me pinchó una rueda, ¿Qué hago?</h3>
                         </div>
 
-                        <div class="descripcion-pinchadura">
+                        <div class="descripcion">
                             <p>Imaginá esta situación: vas conduciendo con normalidad, cuando de pronto empezás a sentir
                                 vibraciones inusuales y escuchás un ruido metálico repetitivo. Al poco tiempo, notás que
                                 uno de los neumáticos comienza a perder presión.
@@ -152,7 +168,7 @@
                                 cómo actuar ante una pinchadura o pérdida de aire en una rueda.</p>
                         </div>
 
-                        <div class="btn">
+                        <div class="div-btn">
                             <button class="btn-guia"> Ver guía</button>
                         </div>
                     </div>
@@ -178,16 +194,16 @@
                             gomería para repararla o reemplazarla si es necesario.</p>
                     </ol> -->
 
-                    <div class="card-kit">
-                        <div class="div-kit">
+                    <div class="card">
+                        <div>
                             <img src="/assets/img/kit.png" class="img-guia" alt="Foto del kit de emergencias">
                         </div>
 
-                        <div class="titulo-kit">
+                        <div class="titulo">
                             <h3>El kit de emergencia perfecto para tu auto</h3>
                         </div>
 
-                        <div class="descripcion-kit">
+                        <div class="descripcion">
                             <p>Contar con un kit de emergencia en el vehículo no es solo una recomendación, sino una
                                 medida clave de prevención y seguridad.
                                 Ante cualquier imprevisto, disponer de los elementos adecuados te permitirá actuar con
@@ -197,7 +213,7 @@
                                 es fundamental.</p>
                         </div>
 
-                        <div class="btn">
+                        <div class="div-btn">
                             <button class="btn-guia"> Ver guía</button>
                         </div>
                     </div>
@@ -231,8 +247,7 @@
             </section>
 
             <!-- SECCION BENEFICIOS -->
-
-            <section class="beneficios">
+            <section>
                 <div class="flex-beneficios">
                     <div>
                         <h2>¿Por qué contratar nuestros seguros de auto online?</h2>
@@ -270,7 +285,6 @@
 
     <footer>
         <!-- aplicar js -->
-
         <div class="flex-baja">
             <h4>¿Querés dar de baja tu servicio?</h4>
             <a href="#">Completá el formulario</a>

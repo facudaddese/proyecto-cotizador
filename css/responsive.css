@@ -1,0 +1,549 @@
+@media (max-width: 1024px) {
+
+    /* MAIN - PRESENTACION */
+
+    .presentacion h1 {
+        font-size: 2.9rem;
+    }
+
+    main section:first-child div img {
+        width: 540px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 2.3rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 2.3rem;
+    }
+
+    .flex-guia {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    main section:last-child div h2 {
+        font-size: 1.8rem;
+    }
+
+    .flex-card {
+        gap: 10px;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (min-width: 932px) and (max-width: 1080px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 3rem;
+    }
+
+    main section:first-child div img {
+        width: 500px;
+        height: 340px;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (min-width: 857px) and (max-width: 931px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 2.6rem;
+    }
+
+    main section:first-child div img {
+        width: 470px;
+        height: 340px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 1.9rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 1.9rem;
+    }
+
+    .titulo h3 {
+        font-size: 1.3rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    main section:last-child {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex-beneficios {
+        width: 600px;
+    }
+
+    main section:last-child div h2 {
+        font-size: 1.5rem;
+    }
+
+    .flex-card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    .flex-baja h4 {
+        font-size: 1.5rem;
+    }
+
+    .flex-baja a {
+        font-size: 1.5rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 856px) {
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 1.7rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 1.7rem;
+    }
+
+    .titulo h3 {
+        font-size: 1.2rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    main section:last-child {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex-beneficios {
+        width: 550px;
+    }
+
+    main section:last-child div h2 {
+        font-size: 1.4rem;
+        padding: 25px 0;
+    }
+
+    .flex-card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    .flex-baja h4 {
+        font-size: 1.5rem;
+    }
+
+    .flex-baja a {
+        font-size: 1.5rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (min-width: 804px) and (max-width: 855px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 2.3rem;
+    }
+
+    main section:first-child div img {
+        width: 450px;
+        height: 320px;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 803px) {
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 1.7rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .titulo h3 {
+        font-size: 1.4rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    main section:last-child {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .flex-beneficios {
+        width: 550px;
+    }
+
+    .flex-card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    .flex-baja h4 {
+        font-size: 1.5rem;
+    }
+
+    .flex-baja a {
+        font-size: 1.5rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (min-width: 772px) and (max-width: 802px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 2.1rem;
+    }
+
+    main section:first-child div img {
+        width: 440px;
+        height: 310px;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 771px) {
+    /*HACER*/
+
+    /* HEADER */
+
+    .navbar button,
+    .navbar-flex span {
+        display: none;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    .flex-beneficios {
+        width: 480px;
+    }
+
+    main section:last-child div h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (min-width: 736px) and (max-width: 770px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 1.9rem;
+    }
+
+    main section:first-child div img {
+        width: 420px;
+        height: 300px;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 735px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main section:first-child .div-h1 h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    main section:first-child div img {
+        width: 500px;
+        height: 320px;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    .flex-baja h4 {
+        font-size: 1.3rem;
+    }
+
+    .flex-baja a {
+        font-size: 1.2rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 600px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 2rem;
+    }
+
+    main section:first-child div img {
+        width: 400px;
+        height: 270px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 1.5rem;
+    }
+
+    .flex-dudas {
+        width: 350px;
+    }
+
+    .flex-item {
+        width: 320px;
+    }
+
+    .flex-item p {
+        font-size: 1rem;
+    }
+
+    .material-symbols-outlined {
+        font-size: 30px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .titulo h3 {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 300px;
+        height: 500px;
+    }
+
+    .img-guia {
+        width: 300px;
+    }
+
+    .descripcion p {
+        font-size: .9rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    .flex-beneficios {
+        width: 400px;
+    }
+
+    main section:last-child div h2 {
+        font-size: 1rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    .flex-baja {
+        flex-direction: column;
+    }
+
+    .flex-baja h4 {
+        font-size: 1.2rem;
+    }
+
+    .flex-baja a {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 485px) {
+
+    /* MAIN - BENEFICIOS */
+
+    .flex-beneficios {
+        width: 350px;
+    }
+
+    main section:last-child div h2 {
+        font-size: .9rem;
+    }
+}
+
+/*--------------------------------------*/
+
+@media (max-width: 450px) {
+
+    /* MAIN - PRESENTACION */
+
+    main section:first-child .div-h1 h1 {
+        font-size: 1.5rem;
+    }
+
+    main section:first-child div img {
+        width: 350px;
+        height: 250px;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - DUDAS */
+
+    .titulo-dudas {
+        font-size: 1.3rem;
+    }
+
+    .flex-dudas {
+        width: 280px;
+    }
+
+    .flex-item {
+        width: 230px;
+    }
+
+    .flex-item p {
+        font-size: .8rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - GUIAS */
+
+    .div-h2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .titulo h3 {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 260px;
+        height: 480px;
+    }
+
+    .img-guia {
+        width: 260px;
+    }
+
+    .descripcion p {
+        font-size: .8rem;
+    }
+
+    /*--------------------------------------*/
+
+    /* MAIN - BENEFICIOS */
+
+    .flex-beneficios {
+        width: 350px;
+        text-align: center;
+    }
+
+    main section:last-child div h2 {
+        font-size: 1rem;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    /*--------------------------------------*/
+
+    /* FOOTER */
+
+    footer p {
+        font-size: .9rem;
+    }
+}
