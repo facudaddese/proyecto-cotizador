@@ -211,21 +211,21 @@ function mostrarModalKit() {
         html: `
             <ol style="text-align: left;">
                 <li style="padding: 5px;"><strong>Triángulos reflectantes y chaleco de seguridad</strong></li>
-                // <p style="margin-bottom:10px; padding-left: 5px;">Son imprescindibles para que los demás conductores te vean en caso de que tu vehículo quede detenido. Colocá los triángulos a unos 30 metros del auto, esto ayudará a mejorar la visibilidad.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;">Son imprescindibles para que los demás conductores te vean en caso de que tu vehículo quede detenido. Colocá los triángulos a unos 30 metros del auto, esto ayudará a mejorar la visibilidad.</p>
 
                 <li style="padding: 5px;"><strong>Linterna y pilas de repuesto</strong></li>
-                // <p style="margin-bottom:10px; padding-left: 5px;">Una linterna potente y baterías extras son esenciales, especialmente si es de noche o un lugar poco iluminado. No importa si tu auto tiene luces de emergencia, una linterna te va a ayudar a ver mejor y a ser más visible.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;">Una linterna potente y baterías extras son esenciales, especialmente si es de noche o un lugar poco iluminado. No importa si tu auto tiene luces de emergencia, una linterna te va a ayudar a ver mejor y a ser más visible.</p>
 
                 <li style="padding: 5px;"><strong>Botiquín de primeros auxilios</strong></li>
-                // <p style="margin-bottom:10px; padding-left: 5px;">Siempre es necesario tener un botiquín básico a mano. Debe contener gasas, vendas, alcohol, analgésicos y todo lo básico para atender cualquier herida o malestar. Es clave que revises regularmente su contenido y que los medicamentos no estén vencidos.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;">Siempre es necesario tener un botiquín básico a mano. Debe contener gasas, vendas, alcohol, analgésicos y todo lo básico para atender cualquier herida o malestar. Es clave que revises regularmente su contenido y que los medicamentos no estén vencidos.</p>
 
                 <li style="padding: 5px;"><strong>Cables de arranque</strong></li>
-                // <p style="margin-bottom:10px; padding-left: 5px;">Si la batería de tu auto te juega una mala pasada, tener cables de arranque a mano te puede salvar. Si encontrás a otro conductor dispuesto a ayudar, vas a poder arrancar el auto sin mayores problemas.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;">Si la batería de tu auto te juega una mala pasada, tener cables de arranque a mano te puede salvar. Si encontrás a otro conductor dispuesto a ayudar, vas a poder arrancar el auto sin mayores problemas.</p>
 
                 <li style="padding: 5px;"><strong>Gato hidráulico, llave de cruz y llave de rueda</strong></li>
-                // <p style="margin-bottom:10px; padding-left: 5px;">Si llegás a tener un pinchazo, no hay nada más importante que un buen gato hidráulico para levantar el auto de manera segura. Además, no te olvides de la llave de cruz para poder sacar las tuercas de las ruedas.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;">Si llegás a tener un pinchazo, no hay nada más importante que un buen gato hidráulico para levantar el auto de manera segura. Además, no te olvides de la llave de cruz para poder sacar las tuercas de las ruedas.</p>
 
-                // <p style="margin-bottom:10px; padding-left: 5px;"><strong>Tip final:</strong> Tener un kit de emergencia completo en tu auto no solo te da tranquilidad, sino que también te puede salvar en situaciones críticas. Además, es clave contar con un buen Seguro de Auto que te cubra en caso de cualquier imprevisto en la ruta.</p>
+                <p style="margin-bottom:10px; padding-left: 5px;"><strong>Tip final:</strong> Tener un kit de emergencia completo en tu auto no solo te da tranquilidad, sino que también te puede salvar en situaciones críticas. Además, es clave contar con un buen Seguro de Auto que te cubra en caso de cualquier imprevisto en la ruta.</p>
             </ol>
         `,
         confirmButtonText: 'Entendido',
